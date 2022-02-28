@@ -9,3 +9,9 @@
         src: url("../fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf") format("truetype");
         font-style: italic;
         }
+@font-face {
+        font-family: "SFProDisplay-Regular";
+        src: url("../fonts/San\ Francisco\ Pro/SFProDisplay-Regular.ttf") format("truetype");
+        font-style: normal;
+     }
+        

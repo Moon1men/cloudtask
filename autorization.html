@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
-    <script src="assets/styles/menu.js"></script>
-    <link rel="stylesheet" href="assets/styles/reset.css">
     <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/auth.css">
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    
     
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,23 +16,27 @@
         <img src="assets/img/CloudTask.svg" alt="">
     </header>
     <div class="form">
-        <div class="form_top">
+        <div class="form_top ">
             <h1>Вход</h1>
         </div>
-        <div class="form_main">
-            <div class="main_login">
-                <p></p>
-                <input type="text">
+        <div class="form_main flex-fdc" >
+            <div class="main_login flex-fdc">
+                <label for="Username">
+                    Логин
+                </label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
             </div>
-            <div class="main_password">
-                <p></p>
-                <div class="password_body">
-                    <input type="password">
-                    <button id="hide"></button>
+            <div class="main_password flex-fdc">
+                <label for="Password">
+                    Пароль
+                </label>
+                <div class="password_body ">
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <img src="assets/img/глаз.svg" alt=""    button id="hide"></img>
                 </div>
             </div>
-            <button id="send-form"></button>
-            <button id="forgot-pass"></button>
+            <button id="send-form">Войти</button>
+            <button id="forgot-pass">Забыли пароль?</button>
         </div>
         
             
