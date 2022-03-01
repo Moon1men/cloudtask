@@ -1,0 +1,112 @@
+*{
+    font-family: "SFProDisplay-Regular";
+}
+body { 
+    background-color: #485DCB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: calc(50% - 465px/2);
+    left: calc(50% - 642px/2);
+    position: fixed;
+     
+    
+}
+.form {
+    height: 465px;
+    width: 642px;
+    background-color: white;
+    border-radius: 20px;  
+   
+}
+.title{
+   margin-top: -33px ;
+   margin-bottom: 33px;
+}
+.title img{
+    
+    
+    height: 43px;
+    width: 159px;
+    
+}
+.form_top{
+    min-height: 82px;
+    border-bottom: 1px solid;
+    border-color: #626262;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_top h1{
+    font-size: 24px;
+    color:#485DCB;
+    text-transform: uppercase;
+    
+
+}
+label{
+    font-size: 16px;
+
+}
+.form_main{
+    
+    max-width: 510px;
+    margin:21px auto;
+    padding: 16px;
+    border-radius: 20px;
+
+}
+
+.flex-fdc{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text], input[type=password] {
+    width: 478px;
+    padding: 12px 20px;
+    margin: 10px 0 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 20px;
+    }
+#hide{
+    
+    border: none;
+    cursor: pointer;
+    margin-left: -35px;
+} 
+.password_body{
+    align-items: center;
+    display: flex;
+}
+
+#send-form{
+    background-color: #485DCB;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#send-form:hover {
+    background: #536BF0;
+}
+
+#forgot-pass{
+    
+    background-color: white;
+    
+    text-align: right;
+    max-width: 478px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
