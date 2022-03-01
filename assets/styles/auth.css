@@ -10,9 +10,8 @@ body {
     top: calc(50% - 465px/2);
     left: calc(50% - 642px/2);
     position: fixed;
-     
-    
 }
+
 .form {
     height: 465px;
     width: 642px;
@@ -74,10 +73,16 @@ input[type=text], input[type=password] {
     border-radius: 20px;
     }
 #hide{
-    
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
     border: none;
     cursor: pointer;
-    margin-left: -35px;
+    margin-left: -45px;
+    background:url(../img/eye.svg) no-repeat left top;
+    height: 24px;
+    width: 24px; 
 } 
 .password_body{
     align-items: center;
@@ -103,7 +108,6 @@ input[type=text], input[type=password] {
 #forgot-pass{
     
     background-color: white;
-    
     text-align: right;
     max-width: 478px;
     border: none;

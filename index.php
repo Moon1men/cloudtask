@@ -1,6 +1,9 @@
-<?php
-    require "auth.php";
-?>
+<?php 
+
+session_start();
+if (isset($_SESSION['id']) && isset($_SESSION['nickname'])) {
+
+ ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -93,3 +96,11 @@
         </header>
 </body>
 </html>
+
+<?php 
+
+}else{
+     header("Location: autorization.php");
+     exit();
+}
+?>
