@@ -12,6 +12,7 @@ padding: 0;
 }
 .wrapper{
     padding: 0px 30px 0px 30px;
+    align-items:center ;
 }
 .header .wrapper{
     display: flex;
@@ -32,7 +33,7 @@ padding: 0;
     }
 
 .logo_title{
-    
+    margin-left: 50%;
 }
 
 .burger{
@@ -80,9 +81,26 @@ line-height: 24px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-flow: wrap-reverse;
+   
     
 }
 .card{
+   
+    width: 349px;
+    height: 260px; 
+    margin-top: 24px;
+    margin-bottom: 20px;
+    margin-left: 26px;
+    
+    
+  
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 32px 0px;
+    
+}  
+.card_task{
    
     width: 349px;
     height: 260px; 
@@ -96,6 +114,18 @@ line-height: 24px;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 32px 0px;
     
 }  
+.card_task p{
+    /* font-family:SF Pro Display Font Family; */
+    font-size: 28px;
+    margin: 32px;
+    align-items:center;
+    display: flex;
+}
+.task_body{
+
+    display: flex;
+    flex-direction: row;
+    }
 .card_body{
 
 display: flex;
