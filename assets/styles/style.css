@@ -189,4 +189,39 @@ flex-direction: row;
 
 .show {display:block;}
 
+.message_main{
+    max-width: 1070px;
+    font-size: 48px;
+    margin: 48px auto;
+    margin-bottom: 20px;
+    
+    
+    align-items: center;
+    display: block;
+    flex-wrap: wrap; 
+    
+}
+.main_head{
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 48px;
+}
+#create{
+    background-color: #485DCB;
+    color: white;
+    width: 120px;
+    height: 54px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.main_body{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+
+    border-color: #979AA4
+}
+
 
