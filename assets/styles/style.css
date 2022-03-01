@@ -1,18 +1,30 @@
 @import url("fonts.css");
 *{
+<<<<<<< HEAD
     font-family: "PlayfairDisplay-Regular";
+=======
+    font-family: "SFProDisplay-Regular";
+>>>>>>> develop
     box-sizing: border-box;
     
 }
 body{
     overflow: hidden;
     background-color: #e5e5e5;
+<<<<<<< HEAD
 margin: 0;
 padding: 0;
 }
 .wrapper{
     padding: 0px 30px 0px 30px;
     align-items:center ;
+=======
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    padding: 0px 30px 0px 30px;
+>>>>>>> develop
 }
 .header .wrapper{
     display: flex;
@@ -28,20 +40,32 @@ padding: 0;
 }
 
 .h1{
+<<<<<<< HEAD
   font-size: 14px;
+=======
+    font-size: 14px;
+>>>>>>> develop
      
     }
 
 .logo_title{
+<<<<<<< HEAD
     margin-left: 50%;
+=======
+    
+>>>>>>> develop
 }
 
 .burger{
     
     height: 24px;
+<<<<<<< HEAD
     width: 24px;
    
     
+=======
+    width: 24px;   
+>>>>>>> develop
 
 }
 .profile{
@@ -81,25 +105,34 @@ line-height: 24px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+<<<<<<< HEAD
     flex-flow: wrap-reverse;
    
+=======
+>>>>>>> develop
     
 }
 .card{
    
     width: 349px;
     height: 260px; 
+<<<<<<< HEAD
     margin-top: 24px;
     margin-bottom: 20px;
     margin-left: 26px;
     
     
+=======
+    margin-bottom: 20px;
+    margin-left: 26px;
+>>>>>>> develop
   
     background-color: #fff;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 32px 0px;
     
 }  
+<<<<<<< HEAD
 .card_task{
    
     width: 349px;
@@ -130,6 +163,12 @@ line-height: 24px;
 
 display: flex;
 flex-direction: row;
+=======
+.card_body{
+
+    display: flex;
+    flex-direction: row;
+>>>>>>> develop
 }
 .card p{
     /* font-family:SF Pro Display Font Family; */
@@ -189,6 +228,7 @@ flex-direction: row;
 
 .show {display:block;}
 
+<<<<<<< HEAD
 .message_main{
     max-width: 1070px;
     font-size: 48px;
@@ -224,4 +264,6 @@ flex-direction: row;
     border-color: #979AA4
 }
 
+=======
+>>>>>>> develop
 

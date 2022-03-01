@@ -1,3 +1,10 @@
+<?php 
+
+session_start();
+if (isset($_SESSION['id']) && isset($_SESSION['nickname'])) {
+
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,74 +45,47 @@
                 <img src="assets/img/Окно пользователя.svg" alt="profile">
             </div>
         </div>
-<<<<<<< HEAD
-    </header>        
-=======
->>>>>>> develop
         <div class="main">
-            <div class="task_top">
-                <img src="assets/img/Ellipse 3.svg" alt="">
-                    
-                Расписание
-            </div>
             <div class="main_wrapper">
-                
-                
-<<<<<<< HEAD
-                <div class="card_task">
-=======
                 <div class="card">
->>>>>>> develop
                     <div class="card_body">
-                    <p>Группы</p>
-                    <img src="assets/img/people2.svg" alt="">
+                        <p>Сообщение</p>
+                        <img src="assets/img/message.svg" alt="message">    
+                    </div>
+                    <p></p>
+                </div>
+                <div class="card">
+                    <div class="card_body">
+                    <p>Расписание</p>
+                    <img src="assets/img/calendar.svg" alt="message">
                     
                     </div>
                     <p></p>
                 </div>
-<<<<<<< HEAD
-                <div class="card_task">
-=======
                 <div class="card">
->>>>>>> develop
                     <div class="card_body">
-                    <p>Преподаватели</p>
-                    <img src="assets/img/prof.svg" alt="">
+                    <p>Редактор ссылок</p>
+                    <img src="assets/img/pencil.svg" alt="message">
                     </div>
                     <p></p>
                 </div>
-<<<<<<< HEAD
-                <div class="card_task">
-=======
                 <div class="card">
->>>>>>> develop
                     <div class="card_body">
-                    <p>Неделя</p> 
-                    <img src="assets/img/calendar.svg" alt="">  
+                    <p>Заголовок</p>   
                     </div>
                     <p></p>
                 </div>
-<<<<<<< HEAD
-                <div class="card_task">
-=======
                 <div class="card">
->>>>>>> develop
                     <div class="card_body">
-                    <p>Завтра</p>
-                    <img src="assets/img/calendar.svg" alt=""> 
+                    <p>Заголовок</p>
                     </div>
                     <p></p> 
                 </div>
                     
             
-<<<<<<< HEAD
-                <div class="card_task">
-=======
                 <div class="card">
->>>>>>> develop
                     <div class="card_body">
-                    <p>Семестр</p>
-                    <img src="assets/img/calendar.svg" alt=""> 
+                    <p>Заголовок</p>
                     </div>
                     <p></p>
                 </div>
@@ -113,10 +93,14 @@
             </div>
             
         </div>
-<<<<<<< HEAD
-        
-=======
         </header>
->>>>>>> develop
 </body>
 </html>
+
+<?php 
+
+}else{
+     header("Location: autorization.php");
+     exit();
+}
+?>

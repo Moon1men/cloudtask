@@ -10,17 +10,26 @@ body {
     top: calc(50% - 465px/2);
     left: calc(50% - 642px/2);
     position: fixed;
+<<<<<<< HEAD
      
     
 }
+=======
+}
+
+>>>>>>> develop
 .form {
     height: 465px;
     width: 642px;
     background-color: white;
+<<<<<<< HEAD
     border-radius: 20px;
     
    
    
+=======
+    border-radius: 20px;  
+>>>>>>> develop
    
 }
 .title{
@@ -61,10 +70,18 @@ label{
     border-radius: 20px;
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> develop
 .flex-fdc{
     display: flex;
     flex-direction: column;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> develop
 input[type=text], input[type=password] {
     width: 478px;
     padding: 12px 20px;
@@ -75,17 +92,34 @@ input[type=text], input[type=password] {
     border-radius: 20px;
     }
 #hide{
+<<<<<<< HEAD
     
     border: none;
     cursor: pointer;
     margin-left: -35px;
     
     
+=======
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: -45px;
+    background:url(../img/eye.svg) no-repeat left top;
+    height: 24px;
+    width: 24px; 
+>>>>>>> develop
 } 
 .password_body{
     align-items: center;
     display: flex;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> develop
 #send-form{
     background-color: #485DCB;
     color: white;
@@ -97,10 +131,21 @@ input[type=text], input[type=password] {
     cursor: pointer;
     width: 100%;
 }
+<<<<<<< HEAD
 #forgot-pass{
     
     background-color: white;
     
+=======
+
+#send-form:hover {
+    background: #536BF0;
+}
+
+#forgot-pass{
+    
+    background-color: white;
+>>>>>>> develop
     text-align: right;
     max-width: 478px;
     border: none;
