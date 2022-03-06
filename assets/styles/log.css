@@ -1,0 +1,32 @@
+
+.lc{
+    background-color:#485DCB;
+    width: 190px;
+    height: 70px;
+    color: white;
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: left;
+    margin: 10px;
+    
+
+}
+.lc_top{
+    min-height: 30px;
+    margin: auto;
+    border-bottom: 1px solid ;
+    border-color: #C4C4C4;
+
+   
+}
+.lc_main{
+    height: 40px;
+    
+}
+#log_in{
+    background-color:#485DCB;
+    height: 40px;
+    width: 190px;
+    display: flex;
+    justify-content: left;
+    color: white;    
